@@ -720,7 +720,7 @@ document.body.innerHTML = sentence;
 //   return inner;
 //   inner();
 // }
-// // console.log(privateVar);
+//  console.log(privateVar);
 // outer()();
 // const value = outer();
 // console.log(value);
