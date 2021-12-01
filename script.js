@@ -748,24 +748,35 @@ document.body.innerHTML = sentence;
 // 214 ==> Template Strings
 // 215 ==> Template strings in Html
 
-const person = {
-  name: 'Kyle',
-  job: 'developer',
-  hobbies: ['surfing', 'baking', 'bowling'],
-};
-const result = document.getElementById('result');
+// const person = {
+//   name: 'Kyle',
+//   job: 'developer',
+//   hobbies: ['surfing', 'baking', 'bowling'],
+// };
+// const result = document.getElementById('result');
 
-result.innerHTML = `
-<h1> ${person.name}</h1>
-<h3>${person.job}</h3> 
-<ul>${person.hobbies
-  .map((item) => {
-    return `<li>${item}</li>`;
-  })
-  .join('')}</ul>
-`;
+// result.innerHTML = `
+// <h1> ${person.name}</h1>
+// <h3>${person.job}</h3>
+// <ul>${person.hobbies
+//   .map((item) => {
+//     return `<li>${item}</li>`;
+//   })
+//   .join('')}</ul>
+// `;
 
 // result.innerHTML = '<h2>' + person.name + '</h2>' + '<p>' + person.job + '</p>';
+
+// 216 ==> Tagged Template Literals
+
+// const author = 'Some Author';
+// const statement = ' some Statement';
+// const quote = `Here is the ${statement} by ${author} and it could not be more true`;
+// console.log(quote);
+// const result = document.getElementById('result');
+// result.innerHTML = quote;
+
+// 217 ==> Arrow Functions-Basics
 
 // !
 // ************************DEV ED-COURSE******************
