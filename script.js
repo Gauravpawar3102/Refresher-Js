@@ -726,6 +726,37 @@ document.body.innerHTML = sentence;
 // console.log(value);
 // value();
 
+// ! ES6 section VERY-IMPORTANT FOR REACT.JS
+
+//  212=>Var,Let,Const
+// var Let,Const
+// define , update , Re-define
+// const cannot mutate primitive type
+
+// // define
+// var number = 100;
+// // console.log(number);
+
+// // Update
+// number = 200;
+// console.log(number);
+
+// // Re-define
+// var number = 'Orange';
+// console.log(number);
+
+// 214 ==> Template Strings
+// 215 ==> Template strings in Html
+
+const person = {
+  name: 'Kyle',
+  job: 'developer',
+  hobbies: ['surfing', 'baking', 'bowling'],
+};
+const result = document.getElementById('result');
+result.innerHTML = '<h2>' + person.name + '</h2>' + '<p>' + person.job + '</p>';
+
+// !
 // ************************DEV ED-COURSE******************
 //*******************************************************************
 // DEV ED -->>>{COURSE}
