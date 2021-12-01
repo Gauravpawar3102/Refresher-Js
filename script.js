@@ -754,7 +754,18 @@ const person = {
   hobbies: ['surfing', 'baking', 'bowling'],
 };
 const result = document.getElementById('result');
-result.innerHTML = '<h2>' + person.name + '</h2>' + '<p>' + person.job + '</p>';
+
+result.innerHTML = `
+<h1> ${person.name}</h1>
+<h3>${person.job}</h3> 
+<ul>${person.hobbies
+  .map((item) => {
+    return `<li>${item}</li>`;
+  })
+  .join('')}</ul>
+`;
+
+// result.innerHTML = '<h2>' + person.name + '</h2>' + '<p>' + person.job + '</p>';
 
 // !
 // ************************DEV ED-COURSE******************
