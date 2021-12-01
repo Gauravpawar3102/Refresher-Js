@@ -798,25 +798,53 @@ document.body.innerHTML = sentence;
 // regular function : "this" refers parent , left of the dot
 // arrow function : refers to it's current surrounding scope
 
-const bob = {
-  firstName: 'Bob',
-  lastName: 'smith',
-  sayName: function () {
-    console.log(this);
-    console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
-  },
-};
+// const bob = {
+//   firstName: 'Bob',
+//   lastName: 'smith',
+//   sayName: function () {
+//     console.log(this);
+//     console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
+//   },
+// };
 
-const anna = {
-  firstName: 'anna',
-  lastName: 'sanders',
-  sayName: () => {
-    console.log(this);
-    console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
-  },
-};
-bob.sayName();
-anna.sayName();
+// const anna = {
+//   firstName: 'anna',
+//   lastName: 'sanders',
+//   sayName: () => {
+//     console.log(this);
+//     console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
+//   },
+// };
+// bob.sayName();
+// anna.sayName();
+// 219==>Arrow Functions-select Elements and "this" -Done
+// 220==>Default Parameters for Hoisting Gotchas-Done
+
+//221==> Array Destructuring
+// Destructuring
+// faster/easier way to access /Unpack values from arrays
+// objects into variables
+// Arrays
+// const fruits = ['Orange', 'banana', 'lemon'];
+// const friends = ['john', 'peter', 'bob', 'anna', 'kelly'];
+// const orange = fruits[0];
+// const banana = fruits[1];
+// const lemon = fruits[2];
+// console.log(orange, banana, lemon);
+// const [enemy, peter, bob, anna, kelly, susan] = friends;
+// console.log(enemy, peter, bob, anna, kelly, susan);
+
+// 222.Swap Variable
+// Destructuring Swap Variables
+// faster/Easier way to access/unpack values from arrays
+// objects into variables that
+// // Arrays
+// let first = 'bob';
+// let second = 'john';
+// let temp = second;
+// second = first;
+// first = temp;
+// console.log(first, second);
 
 // !
 // ************************DEV ED-COURSE******************
