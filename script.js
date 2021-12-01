@@ -777,6 +777,46 @@ document.body.innerHTML = sentence;
 // result.innerHTML = quote;
 
 // 217 ==> Arrow Functions-Basics
+// const sayHi = () => console.log('Hello');
+// sayHi();
+// const double = (value, name) => ` Hi Iam ${name} and Im ${value * 2} Years Old`;
+// const num = double(4, 'gaurav');
+// console.log(num);
+// // return object
+// const object = () => ({ name: 'john', age: 25 });
+// const person = object();
+// console.log(person);
+
+// // Arrow functions as callback functions
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const big = numbers.filter((number) => number > 2);
+// console.log(big);
+// const btn = document.querySelector('.btn');
+// btn.addEventListener('click', () => console.log('You clicked me '));
+
+//218.Arrow functions-Objects and "this"
+// regular function : "this" refers parent , left of the dot
+// arrow function : refers to it's current surrounding scope
+
+const bob = {
+  firstName: 'Bob',
+  lastName: 'smith',
+  sayName: function () {
+    console.log(this);
+    console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
+  },
+};
+
+const anna = {
+  firstName: 'anna',
+  lastName: 'sanders',
+  sayName: () => {
+    console.log(this);
+    console.log(`Hello, my name is ${this.firstName}${this.lastName}`);
+  },
+};
+bob.sayName();
+anna.sayName();
 
 // !
 // ************************DEV ED-COURSE******************
