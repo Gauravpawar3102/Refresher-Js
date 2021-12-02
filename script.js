@@ -892,8 +892,8 @@ console.log(letters);
 // 231.Rest Operator
 // gathers/collects the items
 
-// Arrays
 // const fruit = ['apple', 'orange', 'lemon'];
+// Arrays
 // const [fruit] = fruit;
 // console.log(first);
 // // objects
