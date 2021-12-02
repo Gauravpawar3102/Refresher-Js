@@ -845,6 +845,34 @@ document.body.innerHTML = sentence;
 // second = first;
 // first = temp;
 // console.log(first, second);
+// 223.Object Destructuring
+// faster/easier way to acess/unpack values from arrays
+// objects into variables
+// Objects
+
+const bob = {
+  first: 'bob',
+  last: 'sanders',
+  city: 'chicago',
+  siblings: {
+    sister: 'jane',
+  },
+};
+const {
+  first: firstName,
+  last,
+  city,
+  zip,
+  siblings: { sister: favio },
+} = bob;
+console.log(firstName, last, city, zip, favio);
+
+// const firstName = bob.first;
+// const lastName = bob.last;
+// const sister = bob.siblings.sister;
+
+// console.log(firstName, lastName,sister);
+// console.log(firstName, lastName,sister);
 
 // !
 // ************************DEV ED-COURSE******************
