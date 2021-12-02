@@ -850,22 +850,27 @@ document.body.innerHTML = sentence;
 // objects into variables
 // Objects
 
-const bob = {
-  first: 'bob',
-  last: 'sanders',
-  city: 'chicago',
-  siblings: {
-    sister: 'jane',
-  },
-};
-const {
-  first: firstName,
-  last,
-  city,
-  zip,
-  siblings: { sister: favio },
-} = bob;
-console.log(firstName, last, city, zip, favio);
+// const bob = {
+//   first: 'bob',
+//   last: 'sanders',
+//   city: 'chicago',
+//   siblings: {
+//     sister: 'jane',
+//   },
+// };
+
+// function printPerson({ first, last, city }) {
+//   // const {first,last,city} = person;
+//   console.log(first, last, city);
+// }
+// printPerson(bob);
+
+// const {
+//   first: firstName,
+//   last,
+//   city,zip,siblings:{sister:favio},
+// } = bob;
+// console.log(firstName,last ,city,zip,favio);
 
 // const firstName = bob.first;
 // const lastName = bob.last;
