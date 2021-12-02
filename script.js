@@ -878,6 +878,34 @@ document.body.innerHTML = sentence;
 
 // console.log(firstName, lastName,sister);
 // console.log(firstName, lastName,sister);
+// 228.Spread operator Array, object ,DOM,function arguments
+// Spread Operator ...
+// Allow an iterable to spread/expand individually inside reciever
+//Split into single items and copy them.
+
+const udemy = ['udemy', 'is', 'very', 'Helpful'];
+const letters = [...udemy];
+console.log(letters);
+// const boys = ['john', 'peter', 'bob'];
+// const girls = ['susan', 'anna'];
+// const bestFriend = 'arnold';
+// 231.Rest Operator
+// gathers/collects the items
+
+// Arrays
+// const fruit = ['apple', 'orange', 'lemon'];
+// const [fruit] = fruit;
+// console.log(first);
+// // objects
+// const person = { name: 'john', lastName: 'smith', job: 'developer' };
+// const { job } = person;
+// console.log(job);
+// Array.from and Array.of -Not on the Prototype
+// from - returns Array Object from any object with a length Property or an iterable Object
+// from turns array-like/ish into array - string,nodeList,Set
+
+const udemy = 'udemy';
+console.log(Array.from(udemy));
 
 // !
 // ************************DEV ED-COURSE******************
