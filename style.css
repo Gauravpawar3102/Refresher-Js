@@ -6,19 +6,19 @@ body {
 }
 .colors {
   background: red;
-  color: white;
   font-size: xx-large;
+  color: white;
 }
 .text {
-  font-size: 2rem;
   letter-spacing: 1rem;
+  font-size: 2rem;
 }
 .btn {
   font-size: 56px;
-  text-transform: capitalize;
   cursor: pointer;
+  text-transform: capitalize;
 }
 a {
-  display: inline-block;
   margin-top: 100vh;
+  display: inline-block;
 }

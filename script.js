@@ -904,9 +904,9 @@ console.log(letters);
 // from - returns Array Object from any object with a length Property or an iterable Object
 // from turns array-like/ish into array - string,nodeList,Set
 
+
 // const udemy = 'udemy';
 // console.log(Array.from(udemy));
-
 // !
 // ************************DEV ED-COURSE******************
 //*******************************************************************
